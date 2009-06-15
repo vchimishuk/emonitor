@@ -1,0 +1,43 @@
+Global {
+    edge = top
+    allign = center
+    margin = 0
+    widthtype = percent
+    width = 100
+    height = 20
+    transparent = false
+    tintcolor = #ffffff
+    alpha = 35
+    setdocktype = true
+    setpartialstrut = true
+    autohide = false
+    heightWhenHidden = 2
+}
+
+Plugin {
+    type = emonitor
+    config {
+        Width = -1
+        UpdateInterval = 1000
+        ExternalCommand = date
+	OnClickCommand = xmessage click1
+    }
+}
+
+Plugin {
+    type = space
+    config {
+        size = 10
+    }
+}
+
+Plugin {
+    type = emonitor
+    config {
+        Width = -1
+        UpdateInterval = 1000
+        ExternalCommand = uptime
+	OnClickCommand = xmessage click2
+    }
+}
+

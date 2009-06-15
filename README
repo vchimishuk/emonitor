@@ -1,0 +1,11 @@
+NAME
+	emonitor is a monitor plugin for fbpanel
+
+DESCRIPTION
+	Emonitor is plugin for fbpanel, which shows output of external programs on the panel.
+	Using this simple plugin and external scripts (in bash, python, ruby, perl...).
+	You can print system information on the panel.
+
+AUTHORS
+        Viacheslav Chumushuk <viacheslav88@gmail.com>
+	http://code.google.com/p/emonitor/
